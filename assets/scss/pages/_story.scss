@@ -92,32 +92,32 @@
   }
 }
 //團隊甜點創作靈感卡片-end
-  
+
 //第一個 swiper-start
-.swiper-container {
+.story-page .swiper-container {
   position: relative;
   width: 100% ;
   margin-left: auto;    //讓輪播區域靠右
   overflow: hidden;
 }
 @media (max-width: 992px) {
-  .swiper-container {
+  .story-page .swiper-container {
     width: 100%; 
     margin-left: auto;
     overflow: hidden;
   }
 }
 @media (max-width: 576px) {
-  .swiper-container {
+  .story-page .swiper-container {
     width: 100%; 
     margin-left: 0; 
   }
 }
 
-.swiper-wrapper{
+.story-page .swiper-wrapper{
   position: relative;
 }
-.swiper-slide {
+.story-page .swiper-slide {
   width: 405px;
   height: 333px;
   text-align: center;
@@ -126,7 +126,7 @@
   border-radius: 50px;
   
 }
-.swiper-slide img {
+.story-page .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -134,8 +134,8 @@
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
 }
-.swiper-button-prev,
-.swiper-button-next {
+.story-page .swiper-button-prev,
+.story-page .swiper-button-next {
   width: 50px;
   height: 50px;
   position: absolute; 
@@ -148,13 +148,13 @@
 }
 
 //  調整箭頭的大小 
-.swiper-button-prev::after,
-.swiper-button-next::after {
+.story-page .swiper-button-prev::after,
+.story-page .swiper-button-next::after {
   font-size: 20px;
 }
 
 
-.swiper-pagination {
+.story-page .swiper-pagination {
   text-align: center;
   position: relative; 
   // bottom: -100px; 
@@ -165,12 +165,12 @@
   
 }
 
-.swiper-pagination-bullet {
+.story-page .swiper-pagination-bullet {
   background-color: #e4d2c8; 
   opacity: 0.7; 
 }
 
-.swiper-pagination-bullet-active {
+.story-page .swiper-pagination-bullet-active {
   background-color: #623f2b; 
 }
 //第一個swiper-end
@@ -195,13 +195,12 @@
 
 //center-banner-start
 .banner-bg{
+  background-image: url(/assets/images/img_story/lg-banner.png);
   width: 100vw; //視窗高度100%
   height: 550px;
-  background-image: url(/assets/images/img_story/lg-banner.png);
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
-  
 }
 
 

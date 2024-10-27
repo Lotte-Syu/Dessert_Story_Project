@@ -1,4 +1,4 @@
-const bannerSwiper = new Swiper(".insp-swiper", {
+const bannerSwiper = new Swiper(".story-page .insp-swiper", {
   loop: true,
   speed: 5000,
   freeMode: true,
